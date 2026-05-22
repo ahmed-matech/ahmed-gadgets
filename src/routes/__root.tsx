@@ -80,6 +80,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Minimal tech gadgets and accessories, thoughtfully designed." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Forest & Tech — Minimal Gadgets" },
+      { name: "twitter:description", content: "Minimal tech gadgets and accessories, thoughtfully designed." },
     ],
     links: [
       {
