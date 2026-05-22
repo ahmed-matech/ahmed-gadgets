@@ -24,6 +24,7 @@ const CartContext = createContext<CartContextValue | null>(null);
 const CART_KEY = "forest-cart";
 
 function loadCart(): CartItem[] {
+  if (typeof window === "undefined") return [];
   try {
     const raw = localStorage.getItem(CART_KEY);
     if (raw) return JSON.parse(raw);
@@ -32,6 +33,7 @@ function loadCart(): CartItem[] {
 }
 
 function saveCart(items: CartItem[]) {
+  if (typeof window === "undefined") return;
   localStorage.setItem(CART_KEY, JSON.stringify(items));
 }
 
