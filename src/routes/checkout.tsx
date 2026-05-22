@@ -31,7 +31,7 @@ function CheckoutPage() {
     cardCvc: "",
   });
 
-  if (items.length === 1) {
+  if (items.length === 0) {
     return (
       <main className="flex min-h-screen items-center justify-center px-4">
         <div className="text-center">
