@@ -74,14 +74,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Forest & Tech — Minimal Gadgets" },
+      { title: "Ahmed Gadgets — Minimal Tech" },
       { name: "description", content: "Minimal tech gadgets and accessories, thoughtfully designed." },
-      { name: "author", content: "Forest & Tech" },
-      { property: "og:title", content: "Forest & Tech — Minimal Gadgets" },
+      { name: "author", content: "Ahmed Gadgets" },
+      { property: "og:title", content: "Ahmed Gadgets — Minimal Tech" },
       { property: "og:description", content: "Minimal tech gadgets and accessories, thoughtfully designed." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:title", content: "Forest & Tech — Minimal Gadgets" },
+      { name: "twitter:title", content: "Ahmed Gadgets — Minimal Tech" },
       { name: "twitter:description", content: "Minimal tech gadgets and accessories, thoughtfully designed." },
     ],
     links: [
