@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
             <Link to="/" className="text-xl font-semibold tracking-tight text-foreground">
-              Forest<span className="text-accent">&amp;Tech</span>
+              Ahmed<span className="text-accent"> Gadgets</span>
             </Link>
             <p className="mt-3 max-w-sm text-sm text-muted-foreground">
               Minimal tech gadgets and accessories, thoughtfully designed for everyday focus.
@@ -51,7 +51,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-border/40 pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center">
-          <p>© {year} Forest &amp; Tech. All rights reserved.</p>
+          <p>© {year} Ahmed Gadgets. All rights reserved.</p>
           <p>Designed with care.</p>
         </div>
       </div>
