@@ -10,6 +10,7 @@ import {
 import appCss from "../styles.css?url";
 import { CartProvider } from "@/lib/cart";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 function NotFoundComponent() {
   return (
@@ -116,8 +117,13 @@ function RootComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       <CartProvider>
-        <Header />
-        <Outlet />
+        <div className="flex min-h-screen flex-col">
+          <Header />
+          <main className="flex-1">
+            <Outlet />
+          </main>
+          <Footer />
+        </div>
       </CartProvider>
     </QueryClientProvider>
   );
