@@ -8,9 +8,12 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const links = [
-    { to: "/", label: "Shop" },
+    { to: "/", label: "Home" },
+    { to: "/products", label: "Products" },
+    { to: "/about", label: "About" },
+    { to: "/faq", label: "FAQ" },
     { to: "/contact", label: "Contact" },
-  ];
+  ] as const;
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-md">
