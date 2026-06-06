@@ -90,7 +90,7 @@ function ShopPage() {
                   key={p.id}
                   className={`overflow-hidden rounded-2xl bg-card shadow-2xl ${i === 1 ? "mt-10" : ""}`}
                 >
-                  <img src={p.image_url} alt={p.name} className="aspect-square w-full object-cover" />
+                  <img src={p.image_url} alt={p.name} className="aspect-square w-full h-full object-cover" />
                 </div>
               ))}
             </div>
